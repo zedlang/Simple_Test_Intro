@@ -1,12 +1,12 @@
 require 'minitest/autorun'
 require './calculator'
 
-class CalculatorSpec < MiniTEst::MiniTest
+class CalculatorSpec < MiniTest::Test
 
   def test_accumulator
     my_calculator = Calculator.new
-    my_calculator.set_accumulator = 5
-    assert_equal (my_calculator.acuululator,5)
+    my_calculator.accumulator = 5
+    assert_equal(my_calculator.accumulator,5)
     
   end
 end
