@@ -12,7 +12,7 @@ class CalculatorSpec < MiniTest::Test
   def test_float
     my_calculator = Calculator.new
     my_calculator.accumulator = 5
-    asset_instance_of(float,my_calculator.accumulator)
+    asset_instance_of(Float,my_calculator.accumulator)
   end
 
   def test_add
